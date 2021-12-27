@@ -94,7 +94,7 @@
       }
 
       .login-logo {
-          padding-top: 80px;
+          padding-top: 300px;
       }
 
       .login-logo img {
@@ -163,9 +163,21 @@
           margin-top: 15px;
       }
 
+      .login-form-bottom {
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: 45px;
+      }
 
+      .login-form-bottom a {
+          text-decoration: none;
+          color: #fc4866;
+      }
 
-
+      .form-check-input:checked {
+          background-color: #fc4563;
+          border-color: #fb4461;
+      }
 
 
 
