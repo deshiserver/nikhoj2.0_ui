@@ -2,7 +2,8 @@
         =============================
             1. Base CSS
             2. Landing Page CSS
-            3. Login Page
+            3. Login Page 
+            4. Regestion Page
         =============================
   */
 
@@ -97,10 +98,6 @@
           padding-top: 300px;
       }
 
-      .login-logo img {
-          /* padding-bottom: 200px; */
-      }
-
       .login-with h3 {
           font-size: 20px;
           font-weight: 600;
@@ -179,6 +176,48 @@
           border-color: #fb4461;
       }
 
+      /* Regestion Page */
+
+      .signup-logo {
+          padding-top: 150px;
+      }
+
+      .signup-wrap {
+          text-align: center;
+      }
+
+      .signup-form-bottom p {
+          font-size: 12px;
+          padding-top: 15px;
+          color: #999A9C;
+      }
+
+      .signup-form-bottom p a {
+          text-decoration: none;
+          color: #f9364f;
+      }
+
+      .form-login-btn {
+          background: #FA3954;
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+          padding: 15px 0;
+          border-radius: 5px;
+          border: 1px solid #FA3954;
+          display: block;
+          width: 80%;
+          margin: 0 auto;
+          margin-top: 42px;
+      }
+
+      .alredy-have-account {
+          color: #FA3954;
+          font-size: 16px;
+          text-decoration: navajowhite;
+          padding-top: 30px;
+          display: block;
+      }
 
 
 
@@ -186,4 +225,7 @@
 
 
 
+
+
+      
   }
