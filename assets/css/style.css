@@ -2,10 +2,23 @@
         =============================
             1. Base CSS
             2. Landing Page CSS
+            3. Login Page
         =============================
   */
 
   /* Base CSS  */
+  /* Google Fonts  */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  body {
+      font-family: 'Poppins',
+          sans-serif;
+  }
 
   .container {
       max-width: 768px !important;
@@ -68,5 +81,97 @@
           transition: .4s;
           border: 1px solid #C3C3C5;
       }
+
+      /* Login Page  */
+      .login-wrap {
+          text-align: center;
+          margin: 0 auto;
+          position: absolute;
+          top: 30%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          width: 90%;
+      }
+
+      .login-logo {
+          padding-top: 80px;
+      }
+
+      .login-logo img {
+          /* padding-bottom: 200px; */
+      }
+
+      .login-with h3 {
+          font-size: 20px;
+          font-weight: 600;
+          padding-top: 50px;
+          color: #1c1c1c;
+      }
+
+      .login-with h5 {
+          color: #8E8F91;
+          font-size: 16px;
+          font-weight: normal;
+          padding-top: 15px;
+      }
+
+      .login-with h5 a {
+          color: #FA3B56;
+          text-decoration: navajowhite;
+      }
+
+      .login-with-social-media {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 30px 50px;
+      }
+
+      .login-with h2 {
+          font-weight: bold;
+          font-size: 20px;
+          padding-bottom: 45px;
+      }
+
+      .login-form input {
+          border-top: 0;
+          border-radius: 0;
+          border-right: 0;
+          border-left: 0;
+          padding-left: 0;
+          padding-bottom: 10px;
+          width: 82%;
+          margin: 0 auto;
+      }
+
+      .form-control:focus {
+          color: #212529;
+          background-color: #fff;
+          border-color: #fa3e59;
+          outline: 0;
+          box-shadow: none !important;
+      }
+
+      .form-control::placeholder {
+          color: #8E8F91;
+          opacity: 1;
+          font-size: 14px;
+          font-weight: 300;
+      }
+
+      .form-control.password {
+          margin-top: 15px;
+      }
+
+
+
+
+
+
+
+
+
+
+
 
   }
