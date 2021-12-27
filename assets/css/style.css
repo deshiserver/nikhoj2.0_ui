@@ -1,0 +1,72 @@
+  /* 
+        =============================
+            1. Base CSS
+            2. Landing Page CSS
+        =============================
+  */
+
+  /* Base CSS  */
+
+  .container {
+      max-width: 768px !important;
+      padding: 16px !important;
+  }
+
+  @media screen and (max-width: 450px) {
+
+      /* Landing Page CSS  */
+      .landing-wrap {
+          width: 90%;
+          text-align: center;
+          margin: 0 auto;
+          position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+      }
+
+      .landing-wrap img {
+          padding-bottom: 160px;
+      }
+
+      .landing-button {
+          margin-top: -100px;
+      }
+
+      .btn-n {
+          padding: 14px 60px;
+          margin: 15px 0;
+          border: 0;
+          border-radius: 5px;
+          width: 243px !important;
+          font-weight: 600;
+      }
+
+      .btn-n.login {
+          background: 0;
+          border: 1px solid #C3C3C5;
+          color: #FA3A55;
+          transition: .4s;
+      }
+
+      .btn-n.login:hover {
+          background: #1c1c1c;
+          color: #fff;
+          transition: .4s;
+      }
+
+      .btn-n.busniess {
+          background: #1C1C1C;
+          color: #fff;
+          border: 1px solid #1C1C1C;
+          transition: .4s;
+      }
+
+      .btn-n.busniess:hover {
+          background: none;
+          color: #1c1c1c;
+          transition: .4s;
+          border: 1px solid #C3C3C5;
+      }
+
+  }
