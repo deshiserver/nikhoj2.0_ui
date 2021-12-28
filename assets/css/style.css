@@ -4,6 +4,7 @@
             2. Landing Page CSS
             3. Login Page 
             4. Regestion Page
+            5. Home CSS
         =============================
   */
 
@@ -178,12 +179,9 @@
 
       /* Regestion Page */
 
-      .signup-logo {
-          padding-top: 150px;
-      }
-
       .signup-wrap {
           text-align: center;
+          padding: 50px 0;
       }
 
       .signup-form-bottom p {
@@ -219,6 +217,37 @@
           display: block;
       }
 
+      .form-login-btn:hover {
+          color: #fff;
+      }
+
+
+      /* Home css  */
+      .bottom-menu img {
+          width: 30px;
+      }
+
+      .bottom-menu ul li {
+          list-style: none;
+      }
+
+      .bottom-menu {
+          /*! background: red !important; */
+          /*! border-top: 1px solid red; */
+          /*! box-shadow: 3px 2px 2px 0px; */
+          background: black;
+      }
+
+      .bottom-menu ul li {
+          float: left;
+          padding: 30px 17px;
+          background: red;
+      }
+
+      .bottom-menu ul {
+          margin: 0;
+          padding: 0;
+      }
 
 
 
@@ -227,5 +256,4 @@
 
 
 
-      
   }
