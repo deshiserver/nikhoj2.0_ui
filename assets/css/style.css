@@ -5,6 +5,7 @@
             3. Login Page 
             4. Regestion Page
             5. Home CSS
+            6. Message Page CSS
         =============================
   */
 
@@ -17,6 +18,13 @@
       padding: 0;
   }
 
+  .page-title {
+      font-size: 31px;
+      font-weight: bold;
+      color: #313759;
+      padding-bottom: 20px;
+  }
+
   body {
       font-family: 'Poppins',
           sans-serif;
@@ -27,6 +35,7 @@
       padding: 16px !important;
   }
 
+  /* main css Screen Size 450Px */
   @media screen and (max-width: 450px) {
 
       /* Landing Page CSS  */
@@ -472,4 +481,36 @@
           margin-right: 10px;
       }
 
+
+      /* Message Page  */
+      .page-title {
+          font-size: 31px;
+          font-weight: bold;
+          color: #313759;
+          padding-bottom: 20px;
+      }
+
+      .chat-list-wrap {
+          display: flex;
+          justify-content: space-around;
+          background: #ededed;
+          padding: 12px;
+          border-radius: 9px;
+          margin-bottom: 10px;
+      }
+
+      .chat-list-wrap h6 {
+          padding: 0;
+          margin: 0;
+          font-size: 14px;
+          font-weight: bold;
+          color: #313759;
+      }
+
+      .chat-list-wrap p {
+          padding: 0;
+          margin: 0;
+          font-size: 14px;
+          color: #313759;
+      }
   }
