@@ -289,6 +289,14 @@
           width: 40px;
       }
 
+      .dropdown-menu.show {
+          margin-top: 15px !important;
+          margin-right: 20px !important;
+      }
+
+      .dropdown-item:hover {
+          color: #f9364f;
+      }
 
       .search {
           padding-top: 20px;
@@ -331,23 +339,88 @@
       }
 
       .catagorey-single img {
-          width: 35px;
+          /* width: 35px; */
           padding-bottom: 15px;
+          padding-top: 11px;
       }
 
       .catagorey-single {
           text-align: center;
-          /* background: #ededed; */
-          border-radius: 30px;
-          box-shadow: 1px 2px 5px -2px;
+          border-radius: 20px;
+          box-shadow: 0px 0px 5px -4px;
           padding: 9px;
-          margin: 0 15px;
+          margin: 0 4px;
           width: 33%;
+      }
+
+      .catagorey-single p {
+          font-size: 13px;
+          color: #8E8F91;
       }
 
       .catagorey {
           display: flex;
           align-items: center;
           justify-content: space-between;
+          padding-bottom: 35px;
       }
+
+      .catagorey-single h6 {
+          font-size: 24px;
+          font-weight: bold;
+      }
+
+      /* lost-found-categories  */
+      .home-title {
+          font-size: 20px;
+          font-weight: bold;
+          text-align: center;
+          padding-bottom: 30px;
+      }
+
+      .lost-found-categories {
+          padding-bottom: 35px;
+      }
+
+      .homeSliderCaption {
+          color: #000 !important;
+      }
+
+      .item-tag {
+          background: #FA3954;
+          color: #fff;
+          text-decoration: none;
+          padding: 15px;
+          margin-top: 30px !important;
+          display: block;
+          border-radius: 15px;
+          width: 50%;
+          margin: 0 auto;
+      }
+
+      .homeSliderCaption {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+      }
+
+      .carousel-control-next-icon {
+          background-color: #000;
+          border-radius: 6px;
+      }
+
+      .carousel-control-prev-icon {
+          background-color: #000;
+          border-radius: 6px;
+      }
+
+
+
+
+
+
+
+
   }
