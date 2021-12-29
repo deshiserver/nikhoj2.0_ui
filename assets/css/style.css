@@ -223,6 +223,12 @@
 
 
       /* Home css  */
+      .menu-bg {
+          background: #fff;
+          border: 1px solid #ededed;
+          box-shadow: 0px 0px 9px -7px;
+      }
+
       .bottom-menu img {
           width: 30px;
       }
@@ -241,7 +247,7 @@
       .bottom-menu ul li {
           float: left;
           padding: 30px 17px;
-          background: red;
+          /* background: red; */
       }
 
       .bottom-menu ul {
