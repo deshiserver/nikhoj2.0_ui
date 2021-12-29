@@ -259,11 +259,25 @@
           /* padding: 0; */
       }
 
+      .dropdown-toggle::after {
+          border-top: 0 !important;
+      }
 
+      .dropdown-btn {
+          background: none;
+          border: 0;
+      }
 
+      .header {
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
 
-
-
+      .dropdown img {
+          width: 45px;
+      }
 
 
   }
