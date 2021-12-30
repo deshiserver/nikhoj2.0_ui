@@ -6,6 +6,8 @@
             4. Regestion Page
             5. Home CSS
             6. Message Page CSS
+                6.1 Message View Page
+            7. 
         =============================
   */
 
@@ -16,6 +18,10 @@
   * {
       margin: 0;
       padding: 0;
+  }
+
+  a {
+      text-decoration: none !important;
   }
 
   .page-title {
@@ -513,4 +519,119 @@
           font-size: 14px;
           color: #313759;
       }
+
+      .chat-list-wrap span {
+          color: #313759;
+      }
+
+
+      /* Message view  */
+      ::-webkit-scrollbar {
+          width: 10px
+      }
+
+      ::-webkit-scrollbar-track {
+          background: #eee
+      }
+
+      ::-webkit-scrollbar-thumb {
+          background: #888
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+          background: #555
+      }
+
+      /* 
+      .wrapper {
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #651FFF
+      } */
+
+      .main {
+          width: 100%;
+          position: relative;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          padding: 6px 0px 0px 0px
+      }
+
+      .scroll {
+          overflow-y: scroll;
+          scroll-behavior: smooth;
+          height: 325px
+      }
+
+      .img1 {
+          border-radius: 50%;
+          background-color: #66BB6A
+      }
+
+      .name {
+          font-size: 8px
+      }
+
+      .msg {
+          background-color: #fff;
+          font-size: 11px;
+          padding: 5px;
+          border-radius: 5px;
+          font-weight: 500;
+          color: #3e3c3c
+      }
+
+      .between {
+          font-size: 8px;
+          font-weight: 500;
+          color: #a09e9e
+      }
+
+      .wrapper {
+          padding-top: 55px;
+      }
+
+      .navbar {
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+      }
+
+      .message-form {
+          font-size: 12px;
+          font-weight: 400;
+          width: 230px;
+          height: 30px;
+          border: none
+      }
+
+
+      .icon1 {
+          color: #7C4DFF !important;
+          font-size: 18px !important;
+          cursor: pointer
+      }
+
+      .icon2 {
+          color: #512DA8 !important;
+          font-size: 18px !important;
+          position: relative;
+          left: 8px;
+          padding: 0px;
+          cursor: pointer
+      }
+
+      .icondiv {
+          border-radius: 50%;
+          width: 15px;
+          height: 15px;
+          padding: 2px;
+          position: relative;
+          bottom: 1px;
+          margin-right: 16px;
+      }
+
+      /* Message view  */
   }
