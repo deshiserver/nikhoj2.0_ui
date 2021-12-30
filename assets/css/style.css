@@ -7,7 +7,7 @@
             5. Home CSS
             6. Message Page CSS
                 6.1 Message View Page
-            7. 
+            7. My Labels Page
         =============================
   */
 
@@ -591,6 +591,7 @@
 
       .wrapper {
           padding-top: 55px;
+          padding-bottom: 55px;
       }
 
       .navbar {
@@ -633,5 +634,45 @@
           margin-right: 16px;
       }
 
-      /* Message view  */
+      /* my-labels */
+
+      .my-labels-form {
+          width: 90%;
+          margin: 0 auto;
+          padding-top: 35px;
+      }
+
+      .input-group.mb-3 input {
+          border-right: 0;
+          padding: 13px;
+      }
+
+      /* .input-group.mb-3 textarea {
+          border-right: 0 !important;
+      } */
+
+      .input-group-text {
+          color: #FA3954;
+          background: none !important;
+      }
+
+      .input-group-text:focus {
+          border-color: red !important;
+      }
+
+      .form-select:focus {
+          border-color: #fa3954;
+          outline: 0;
+          box-shadow: none;
+      }
+
+      .form-select {
+          color: #C3C3C5;
+          border: 1px solid #ced4da;
+      }
+
+      .form-login-btn.add-lebels {
+          text-align: center;
+          width: 100%;
+      }
   }
