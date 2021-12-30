@@ -675,4 +675,39 @@
           text-align: center;
           width: 100%;
       }
+
+      .border.mb-3.border-radius-3 {
+          border-radius: 5px;
+      }
+
+      .text-right {
+          text-align: right;
+          float: right;
+      }
+
+      .labels-qr-header {
+          padding: 30px;
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+      }
+
+      .labels-logo {
+          width: 110px;
+      }
+
+      .form-login-btn.add-lebels {
+          margin-bottom: 120px;
+      }
+
+      .text-center.labels-qr-bottom h6 {
+          color: #313759;
+          font-weight: bold;
+          font-size: 14px;
+      }
+
+      .text-center.labels-qr-bottom p {
+          color: #313759;
+          font-size: 14px;
+      }
   }
