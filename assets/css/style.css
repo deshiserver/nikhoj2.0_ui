@@ -792,4 +792,57 @@
 
 
       /* My Founds */
+      .profile-header-wrap {
+          text-align: center;
+      }
+
+      .profile-header-wrap img {
+          padding: 30px 0;
+          width: 150px;
+      }
+
+      .profile-header-wrap h6 {
+          font-weight: bold;
+          font-size: 20px;
+          padding: 0;
+          margin: 0;
+      }
+
+      .profile-header-wrap.mb-3 h6::after {
+          content: '';
+          position: absolute;
+          width: 9px;
+          height: 9px;
+          background: #3FFF6B;
+          border-radius: 50px;
+          margin-top: 9px;
+          margin-left: 8px;
+      }
+
+      .profile-header-wrap p {
+          color: #8F8F8D;
+          font-size: 15px;
+          padding-top: 5px;
+      }
+
+      .acount-details p {
+          margin: 0;
+          padding: 0;
+          margin-bottom: 8px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
