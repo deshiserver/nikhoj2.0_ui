@@ -8,6 +8,8 @@
             6. Message Page CSS
                 6.1 Message View Page
             7. My Labels Page
+            8. My Lost Page 
+            9. My Found Page
         =============================
   */
 
@@ -721,16 +723,6 @@
       }
 
 
-
-
-
-
-
-
-
-
-
-
       .drag-image {
           border: 1px solid #CED4DA;
           border-radius: 5px;
@@ -799,11 +791,5 @@
       }
 
 
-
-
-
-
-
-
-
+      /* My Founds */
   }
