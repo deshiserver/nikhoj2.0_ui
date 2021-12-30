@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Labels - Nikhoj</title>
+    <title>My Lost - Nikhoj</title>
     <!-- Bootstrap css  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- FontAwsome cdn  -->
@@ -47,40 +47,58 @@
 
                 <!-- labels-form  -->
                 <div class="my-labels-form">
-
-
                     <div class="input-group mb-3">
-                        <input placeholder="Nickname of your Labels" type="text" class="form-control ">
+                        <input placeholder="Your Name" type="text" class="form-control ">
 
                         <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
                     </div>
+
                     <div class="input-group mb-3">
-                        <textarea placeholder="Labels details" class="form-control" id="exampleFormControlTextarea1"
-                            rows="7"></textarea>
-                        <!-- <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span> -->
-                    </div>
-                    <div class="border mb-3 border-radius-3">
-                        <div class="labels-qr-header">
-                            <img class="labels-logo" src="assets/img/dark-logo.png" alt="">
-                            <img class="text-right" src="assets/img/home/qr-code.png" alt="">
-                        </div>
-                        <div class="text-center labels-qr-bottom">
-                            <h6>Md. Kamal Hossain</h6>
-                            <p class="url">https://nikhoj.com/labels/ XXXXXXXXXX</p>
-                        </div>
-                    </div>
-                    <div class="input-group mb-3">
-                        <input placeholder="Identity code" type="text" class="form-control ">
+                        <input placeholder="Your Email" type="email" class="form-control ">
 
                         <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
                     </div>
+
+                    <div class="input-group mb-3">
+                        <input placeholder="Your Phone" type="number" class="form-control ">
+
+                        <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                    </div>
+
+
                     <select class="form-select form-control mb-3" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
+                        <option selected>Select Category</option>
                         <option value="1">One</option>
                         <option value="2">Two</option>
                         <option value="3">Three</option>
                     </select>
 
+                    <!-- Drag and drop  -->
+                    <div class="drag-image mb-3">
+                        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                        <h6>Drag & Drop File Here</h6> <span>OR</span> <button>Browse File</button> <input type="file"
+                            hidden>
+                    </div>
+                    <!-- Drag and drop  -->
+
+                    <div class="input-group mb-3">
+                        <input placeholder="Your Address" type="text" class="form-control ">
+
+                        <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input placeholder="Exact location" type="text" class="form-control ">
+
+                        <span class="input-group-text"><i class="fas fa-pencil-alt"></i></span>
+                    </div>
+
+                    <select class="form-select form-control mb-3" aria-label="Default select example">
+                        <option selected>Location Type</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
 
                     <a href="#" type="button" class="form-login-btn add-lebels">Add Labels</a>
                 </div>
@@ -113,6 +131,8 @@
     <!-- Script file  -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
 
 </body>
 
