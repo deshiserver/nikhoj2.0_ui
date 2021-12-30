@@ -790,7 +790,13 @@
           border-radius: 5px
       }
 
+      .form-check-label {
+          color: #C3C3C5;
+      }
 
+      .form-check-label a {
+          color: #fa3954;
+      }
 
 
 
