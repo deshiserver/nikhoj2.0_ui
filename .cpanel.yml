@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/trialrr/public_html/nikhojui/
+    - export REPOPATH=/home/trialrr/nikhojui/
+    - rsync -aP --exclude '.env' ${REPOPATH}/ ${DEPLOYPATH}
