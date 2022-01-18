@@ -831,18 +831,135 @@
           margin-bottom: 8px;
       }
 
+      .condation-text {
+          text-align: left;
+      }
 
 
 
 
+      .notifaction-bg {
+          background: #ededed63;
+          padding: 12px;
+          border-radius: 9px;
+          margin-bottom: 10px;
+      }
+
+      .notifaction-list-wrap {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+      }
+
+      .notifaction-list-wrap h6 {
+          padding: 0;
+          margin: 0;
+          font-size: 14px;
+          font-weight: bold;
+          color: #313759;
+      }
+
+      .notifaction-list-wrap p {
+          padding: 0;
+          margin: 0;
+          font-size: 14px;
+          color: #313759;
+      }
+
+      .notifaction-list-wrap span {
+          color: #313759;
+      }
+
+      .notifaction-btn {
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: 10px;
+          margin-left: 40px;
+      }
+
+      .nb-ac {
+          background: none;
+          border: 1px solid;
+          padding: 8px 20px;
+          border-radius: 50px;
+          color: #30AC4D;
+      }
+
+      .nb-dc {
+          background: none;
+          border: 1px solid;
+          padding: 8px 20px;
+          border-radius: 50px;
+          color: #FA3954;
+      }
+
+      .notifaction-list-wrap img {
+          height: 55px;
+      }
+
+      .notifaction-list-wrap p {
+          color: #C3C3C5;
+      }
+
+      .notifaction-list-wrap,
+      .chat-time {
+          color: #C3C3C5 !important;
+      }
+
+      .cat-location {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          margin-left: -30px;
+      }
+
+      .cat-location p {
+          margin-top: -8px;
+          color: #FA3954;
+      }
+
+      .cat-location p i {
+          margin-right: 10px;
+      }
 
 
+  }
 
+  @media screen and (max-width: 360px) {
+      .bottom-menu ul {
+          margin: 0;
+          padding: 0;
+      }
 
+      .bottom-menu ul li {
+          float: left;
+          padding: 30px 18px;
+          /* background: red; */
+      }
+  }
 
+  @media screen and (max-width: 375px) {
+      .bottom-menu ul {
+          margin: 0;
+          padding: 0;
+      }
 
+      .bottom-menu ul li {
+          float: left;
+          padding: 30px 19px;
+          /* background: red; */
+      }
+  }
 
+  @media screen and (max-width: 428px) {
+      .bottom-menu ul {
+          margin: 0;
+          padding: 0;
+      }
 
-
-
+      .bottom-menu ul li {
+          float: left;
+          padding: 30px 25px;
+          /* background: red; */
+      }
   }
