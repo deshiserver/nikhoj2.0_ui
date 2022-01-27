@@ -951,7 +951,7 @@
       }
   }
 
-  @media screen and (max-width: 428px) {
+  @media screen and (width: 428px) {
       .bottom-menu ul {
           margin: 0;
           padding: 0;
