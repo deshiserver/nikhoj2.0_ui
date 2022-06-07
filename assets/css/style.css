@@ -986,9 +986,9 @@
   }
 
 
-  .marginBottom {
+  /* .marginBottom {
       margin-bottom: 30px !important;
-  }
+  } */
 
   .owl-theme .owl-dots .owl-dot.active span,
   .owl-theme .owl-dots .owl-dot:hover span {
