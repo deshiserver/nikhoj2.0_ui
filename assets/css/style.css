@@ -963,3 +963,48 @@
           /* background: red; */
       }
   }
+
+
+  .index-single-item {
+      text-align: center;
+      margin: 40px 0;
+  }
+
+  .index-single-item img {
+      border-radius: 30px;
+  }
+
+  /* 
+  .landing-bg {
+      background-color: red !important;
+  }
+
+  */
+  .index-title {
+      margin-top: 40px;
+      margin-bottom: 20px;
+  }
+
+
+  .marginBottom {
+      margin-bottom: 30px !important;
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span,
+  .owl-theme .owl-dots .owl-dot:hover span {
+      background: #FA3A55;
+      width: 30px;
+  }
+
+  .index-text {
+      margin-bottom: 30px;
+      color: #8E8F91;
+      font-size: 15px;
+  }
+
+  .skip {
+      display: block;
+      font-weight: 600;
+      text-transform: capitalize;
+      color: #1c1c1c !important;
+  }
